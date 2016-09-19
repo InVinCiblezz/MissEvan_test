@@ -1,0 +1,21 @@
+{
+    "name": "missevan/mobile_api_test",
+    "description": "a collection of test of mobile restful api",
+    "type": "test",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Tom",
+            "email": "jiepengthegreat@126.com"
+        }
+    ],
+    "require": {
+        "phpunit/phpunit": "^5.5",
+        "guzzlehttp/guzzle": "^6.2"
+    },
+	"scripts": {
+		"test": [
+			"vendor\\bin\\phpunit.bat FirstTest.php"
+		]
+	}
+}
